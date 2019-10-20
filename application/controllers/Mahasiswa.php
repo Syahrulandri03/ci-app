@@ -2,28 +2,6 @@
 
 class Mahasiswa extends CI_Controller {
 
-	// public function index()
-	// {
-	// 	// $data['mahasiswa'] = [
-	// 	// 	[
-	// 	// 	'nama' => 'ajmal',
-	// 	// 	'nrp' => '173040149',
-	// 	// 	'email' => 'ajmal@gmail.com',
-	// 	// 	'jurusan' => 'Teknik Informatika'
-	// 	// 	],
-	// 	// 	[
-	// 	// 	'nama' => 'gudir',
-	// 	// 	'nrp' => '173040150',
-	// 	// 	'email' => 'gudir@gmail.com',
-	// 	// 	'jurusan' => 'Teknik Informatika'
-	// 	// 	]
-	// 	// ];
-
-	// 	$data['mahasiswa'] = $this->db->get('mahasiswa')->result_array();
-
-	// 	$this->load->view('mahasiswa/index', $data);
-	// }
-
 	public function __Construct()
 	{
 		parent::__Construct();
